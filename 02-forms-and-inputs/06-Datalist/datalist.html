@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datalist</title>
+  </head>
+  <body>
+    <a href="../index.html" target="_blank">HOME</a><br />
+    <hr />
+    <br />
+    <h1>Datalist</h1>
+    <br />
+    <h2>General list select</h2>
+    <br />
+    <label for="favLanguage">Favorite programming Languages</label>
+    <input list="languages" id="favLanguage" name="favLanguage" />
+    <datalist id="languages">
+      <option value="Javascript"></option>
+      <option value="php"></option>
+      <option value="python"></option>
+      <option value="ruby"></option>
+      <option value="c"></option>
+      <option value="c#"></option></datalist
+    ><br /><br /><br />
+
+    <h2>Time</h2>
+    <br />
+    <input type="time" list="popularhours" />
+    <datalist id="popularhours">
+      <option value="10:00"></option>
+      <option value="11:00"></option>
+      <option value="12:00"></option></datalist
+    ><br /><br /><br />
+
+    <h2>Range</h2>
+    <br />
+    <label for="tick">tip amount</label>
+    <input
+      type="range"
+      id="tick"
+      name="tick"
+      list="tickmarks"
+      min="0"
+      max="100"
+    />
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+      <option value="50"></option>
+      <option value="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="110"></option></datalist
+    ><br />
+
+    <h2>colors</h2>
+    <br />
+    <label for="colors">Pick a color</label>
+    <input type="color" name="color" id="colors" list="redcolors" />
+    <datalist id="redcolors">
+      <option value="#800000"></option>
+      <option value="#8b0000"></option>
+      <option value="#A52A2A"></option>
+      <option value="#Dc143C"></option>
+    </datalist>
+  </body>
+</html>
