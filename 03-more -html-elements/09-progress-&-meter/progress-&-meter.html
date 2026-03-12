@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>progress and meter</title>
+    <style>
+      meter::-webkit-meter-optimum-value {
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../index.html" target="_blank">HOME</a><br />
+    <hr />
+    <br />
+    <h1>progress and meter</h1>
+    <br />
+
+    <h2>progress</h2>
+    <br />
+
+    <label for="file">file progress:</label>
+    <progress id="file" max="100" value="70">70%</progress><br />
+
+    <h2>meter</h2>
+    <br />
+
+    <label for="fuel">fuel</label>
+    <meter
+      id="fuel"
+      value="50"
+      min="0"
+      max="100"
+      low="30"
+      high="90"
+      optimal="80"
+    >
+      50/100
+    </meter>
+  </body>
+</html>
