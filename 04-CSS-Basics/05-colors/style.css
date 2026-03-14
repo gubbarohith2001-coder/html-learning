@@ -1,0 +1,27 @@
+body {
+    font-family: 'poopins' , sans-serif;
+    /* rgb */
+    background-color: rgb(255, 255, 255);
+}
+
+/* color names */
+.sporty{
+    color: red;
+}
+
+/* Hex values */
+.casual{
+    color: #e04553;
+}
+
+/* rgba */
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-2{
+    background-color: #000;
+    color: #fff;
+    /* opacity */
+    opacity: 1;
+}

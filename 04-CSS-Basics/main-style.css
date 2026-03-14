@@ -1,0 +1,14 @@
+#main-container h1{
+    text-align: center;
+    color: rgb(87, 10, 10);
+    background-color: aqua;
+    text-decoration: underline;
+}
+#lists a{
+    text-decoration: none;
+    color: brown;
+}
+
+#main-container{
+    background-color: aliceblue;
+}
