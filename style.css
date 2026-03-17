@@ -1,0 +1,19 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: bisque;
+}
+#main-container h1{
+    text-align: center;
+    color: blue;
+    background-color: rgb(167, 214, 84);
+}
+
+#main-container{
+    background-color: rgb(72, 216, 232);
+}
+#lists a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 24px; 
+}

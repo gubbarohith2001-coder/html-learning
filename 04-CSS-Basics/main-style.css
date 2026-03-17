@@ -1,14 +1,19 @@
+body{
+    background-color: aquamarine;
+}
 #main-container h1{
     text-align: center;
     color: rgb(87, 10, 10);
     background-color: aqua;
-    text-decoration: underline;
 }
 #lists a{
     text-decoration: none;
     color: brown;
+    text-transform: capitalize;
 }
 
 #main-container{
-    background-color: aliceblue;
+    background-color: beige;
+    font-weight: 700;
+    font-size: 24px;
 }

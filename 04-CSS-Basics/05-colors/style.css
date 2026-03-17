@@ -25,3 +25,7 @@ body {
     /* opacity */
     opacity: 1;
 }
+
+h1 {
+  color: hsl(0, 100%, 50%);
+}
