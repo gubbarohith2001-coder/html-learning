@@ -17,3 +17,10 @@ body{
     font-weight: 700;
     font-size: 24px; 
 }
+
+li{
+    margin-bottom: 15px;
+}
+ul{
+    list-style: none;
+}
