@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.main-container h1{
+    text-align: center;
+    background-color: darkblue;
+    color: beige;
+    font-weight: bolder;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: black 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.main-container{
+    background-color: bisque;
+}

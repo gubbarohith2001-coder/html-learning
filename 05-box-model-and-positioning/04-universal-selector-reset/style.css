@@ -1,0 +1,15 @@
+*{
+
+    /* border: red solid 5px; */
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+    box-sizing: border-box ;
+} 
+
+.box {
+    background-color: coral;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+}
