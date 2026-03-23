@@ -1,0 +1,22 @@
+.flex-item{
+    height: 200px;
+    width: 200px;
+    background: coral;
+    border: 1px solid black;
+}
+.flex-item2{
+    height: 200px;
+    width: 200px;
+    background: coral;
+    border: 1px solid black;
+}
+
+.flex-container{
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+}
