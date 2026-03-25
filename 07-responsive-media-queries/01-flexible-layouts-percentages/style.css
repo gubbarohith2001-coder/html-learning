@@ -1,0 +1,11 @@
+.container{
+    /* width: 1100px; */
+    /* max-width: 110px; */
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+}
