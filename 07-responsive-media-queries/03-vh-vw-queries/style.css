@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: coral;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 7vw;
+}
