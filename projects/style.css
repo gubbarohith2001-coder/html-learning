@@ -25,3 +25,14 @@ ul{
     list-style: none;
     padding-bottom: 10px;
 }
+
+.nav a{
+    display: flex;
+    text-decoration: none;
+    background-color: aqua;
+    justify-content: flex-start;
+    padding: 10px  20px ;
+    font-weight: bolder;
+    /* border: 20x solid black; */
+
+}
