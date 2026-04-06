@@ -4,26 +4,24 @@
     box-sizing: border-box;
 }
 
-body{
-     font-family:'Montserrat',sans-serif;
-     background:linear-gradient(to left,
-     rgba(225, 36, 36,0.7),
-     rgb(83, 83, 15,0.8));
-}
+/* body */
 
+body{
+    font-family: 'Montserrat',sans-serif;
+    background-color: rgba(188, 128, 134, 0.7);
+    color: aliceblue;
+}
 .wrapper{
     border:2px solid black;
     background-color: rebeccapurple ;
     max-width: 600px;
     margin: 100px auto;
-    margin-top: 70px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.7);
 }
 /* header */
 .header{
     background-color: rgb(39, 29, 14);
-    color: #fff;
     padding: 10px;
     /* margin-top: 5px; */
     border-top-left-radius: 15px;
@@ -31,25 +29,43 @@ body{
     text-align: center;
 }
 
+/* nav-bar */
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(92, 168, 120) ;
+    /* padding: 10px; */
+}
+
+.nav-bar a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;    
+}
+
+.nav-bar a:hover{
+    background-color: rgb(106, 132, 116);
+
+}
 
 /* main  */
 
 .list{
     display:flex;
     flex-direction: column;
-    padding: 20px;
-    gap: 25px;
+    padding: 10px 10px;
+    gap: 10px;
     justify-content: center;
     align-items: start;
-    background: linear-gradient(to bottom left,rgb(183, 3, 3,0.8),rgb(4, 4, 250,0.7));
-    border-bottom-left-radius:15px;  
-    border-bottom-right-radius:15px;  
+    background: linear-gradient(to bottom left,rgba,blue);
 }
 
 .list li a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -59,19 +75,6 @@ body{
 
 .list li a:hover{
     padding: 10px;
-        background: linear-gradient(to bottom right,rgba(252, 240, 240, 0.4),rgba(0, 0, 12, 0.84));
-
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.7);
+    background-color: rgb(155, 98, 209);
 }
 
-@media (max-width:768px){
-    .header h1{
-        font-size: 1.5rem;
-    }
-
-    .wrapper{
-        max-width: 500px;
-        margin: 70px auto; 
-    }
-}
