@@ -1,87 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-     font-family: 'Open Sans', sans-serif;
-     background:linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-direction: column;
-    background:linear-gradient(90deg, #efd5ff 0%, #515ada 100%) ;
-    max-width: 600px;
-    margin: 100px auto;
-    border-radius: 10px;
-    
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  max-width: 600px;
+  margin: 100px auto;
+  border-radius: 10px;
 }
 
-.main-container .header h1{
-    font-size: 3rem;
-    margin: 10px;
-     border-bottom: 2px #000 solid;
-     
+.main-container .header h1 {
+  font-size: 3rem;
+  margin: 10px;
+  border-bottom: 2px #000 solid;
 }
 
-.main-container .nav a{
-    font-size: 1.5rem;
-    color: #0c0518;
-    border: #000 2px solid;
-    padding: 10px;
-    border-radius: 10px;
+.main-container .nav a {
+  font-size: 1.5rem;
+  color: #0c0518;
+  border: #000 2px solid;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.main-container .nav a:hover{
-    opacity: 0.7;
-    color: #fff;
-    background-color: #000;
+.main-container .nav a:hover {
+  opacity: 0.7;
+  color: #fff;
+  background-color: #000;
 }
 
-.item-1{
-    align-self: center;
+.item-1 {
+  align-self: center;
 }
-.item-2{
-    align-self: flex-start;
-    margin: 10px;
+.item-2 {
+  align-self: flex-start;
+  margin: 10px;
 }
-.item-3{
-    align-self: flex-start;
-}
-
-.list-flex{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.item-3 {
+  align-self: flex-start;
 }
 
-.container{
-    margin: 0 10px 10px;
-    padding: 10px 10px ;
+.list-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.container .lists .list-item a{
-    font-size: 1.5rem;
-    color: rgb(5, 21, 10);
-    font-weight: 900px;
+.container {
+  margin: 0 10px 10px;
+  padding: 10px 10px;
+}
+.container .lists .list-item a {
+  font-size: 1.5rem;
+  color: rgb(5, 21, 10);
+  font-weight: 900px;
 }
 
-.container .lists .list-item a:hover{
-    border-radius: 10px;
-    background-color: #430aa7;
-    color: #eae7ec;
-    padding: 10px;
+.container .lists .list-item a:hover {
+  border-radius: 10px;
+  background-color: #430aa7;
+  color: #eae7ec;
+  padding: 10px;
 }
