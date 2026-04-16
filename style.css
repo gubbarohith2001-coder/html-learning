@@ -84,5 +84,7 @@ body {
     margin: 70px auto;
   }
 
-
+  .list li a:hover {
+    padding: 2px;
+  }
 }
